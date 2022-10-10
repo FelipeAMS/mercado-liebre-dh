@@ -7,7 +7,7 @@ const publicPath = path.resolve(__dirname,'./public');
 app.use(express.static(publicPath));
 
 const port = process.env.PORT || 3001;
-app.listen(port, () => console.log('Server online')); 
+app.listen(port, () => console.log(`Server online in the port ${port}`)); 
 
 app.get('/', (req, res) => res.sendFile(path.join(__dirname, './views/home.html')))
 
