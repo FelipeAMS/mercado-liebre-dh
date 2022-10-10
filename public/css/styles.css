@@ -64,6 +64,10 @@ header p{
 a{
     text-decoration: none;
     color: #03264C;
+    transition: color 0.3s;
+}
+a:hover{
+    color: #1259c3;
 }
 .burger-menu{
     margin: auto;
@@ -82,6 +86,7 @@ a{
 main{
     width: 90%;
     margin-left: 4.5%;
+    margin-bottom: 25px;
 }
 article{
     background-color: white;
@@ -103,6 +108,7 @@ article img{
     position: absolute;
     right: 20px;
     top:-20px;
+    transition: all 0.5s;
 }
 .truck-icon:hover{
     transform: rotateZ(-90deg);
@@ -148,6 +154,7 @@ footer h4{
     text-align: center;
     font-size: 2em;
     margin-bottom: 10px;
+    transition: color 0.5s;
 }
 .footer-icon:hover{
     color:#EAC926;
@@ -214,6 +221,7 @@ footer section{
     .description{
         display:block;
         opacity: 0;
+        transition: opacity 0.5s;
     }
     .description:hover{
         opacity: 1;
@@ -243,7 +251,7 @@ footer section{
 }
 /*------------------------------ REGISTER ------------------------------*/
 .main-register{
-    background-color: white;
+
     padding:1px 10px 10px 10px;
     width:70%;
     margin:auto;
@@ -267,6 +275,10 @@ footer section{
     border:solid 1px #ebebeb;
     background-color: white;
     padding-left: 10px;
+    transition: border 0.2s;
+}
+.register-input:hover{
+    border:solid 1px #1259c3;
 }
 label{
     font-size: 18px;
@@ -288,6 +300,10 @@ label{
     color:white;
     border: solid 1px #1259c3;
     background-color: #1259c3;
+    transition: background-color 0.2s;
+}
+.button:hover{
+    background-color: #0022AA;
 }
 /*------------------------------ REGISTER ------------------------------*/
 
@@ -304,6 +320,7 @@ label{
     color:white;
     border: solid 1px #1259c3;
     background-color: #1259c3;
+    transition: background-color 0.2s;
 }
 .login-button:hover{
     background-color: #0022AA;
